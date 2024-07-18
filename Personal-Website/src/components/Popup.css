@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./MinecraftTen-VGORe.ttf') format('truetype');
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dimmer transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .popup-content {
+    position: relative;
+    background: transparent; /* Make the background transparent */
+    padding: 0; /* Remove padding */
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden; /* Prevent scrolling */
+    transform: translateY(-10%); /* Move the content slightly up */
+
+  }
+  
+  .popup-image {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain; /* Ensure the image fits within the window */
+  }
+  
+  .popup-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%); /* Center the text within the image */
+    color: black; /* Adjust text color for visibility */
+    font-size: 1.2em; /* Adjust font size as needed */
+    width: 40%;
+    height:auto;
+    font-family: 'CustomFont', sans-serif; /* Apply the custom font */
+    white-space: pre-wrap; /* Preserve spaces and new lines */
+    padding: 10px; /* Add padding to the text container */
+  }
+  
+  .popup-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: white; /* Adjust text color for visibility */
+  }
+  
