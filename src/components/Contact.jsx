@@ -17,7 +17,7 @@ function Contact() {
           <a href="https://www.linkedin.com/in/mohamed-anas-aaffoute-5b54382ab/" target="_blank" rel="noopener noreferrer"><img src={LinkedInIcon} alt="LinkedIn" className="icon" /></a>
           <a href="mailto:aaffouteanas@gmail.com"><img src={EmailIcon} alt="Email" className="icon" /></a>
           <a href="https://github.com/AnasAA98" target="_blank" rel="noopener noreferrer"><img src={GitHubIcon} alt="GitHub" className="icon" /></a>
-          <a href="https://anas-aa-resume.tiiny.site/" target="_blank" rel="noopener noreferrer"><img src={ResumeIcon} alt="Resume" className="icon" /></a>
+          <a href="https://drive.google.com/file/d/135bTFGZiZJg8nmFasFZ-_xdxvM4vnAoZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><img src={ResumeIcon} alt="Resume" className="icon" /></a>
         </div>
       </div>
     </div>
